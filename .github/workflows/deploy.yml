@@ -27,11 +27,11 @@ jobs:
 
       - name: Build and Deploy
         run: |
-          mkdocs build -f page/mkdocs.yml -d page/site
-          touch page/site/.nojekyll
+          mkdocs build -f page/mkdocs.yml
+          touch site/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./page/site
+          publish_dir: ./site
