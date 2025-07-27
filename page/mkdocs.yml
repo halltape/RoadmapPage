@@ -4,7 +4,7 @@ repo_url: https://github.com/halltape/HalltapeRoadmapDE
 site_url: https://roadmappers.ru
 copyright: MIT
 
-docs_dir: docs
+site_dir: page/site
 
 # Явное, лаконичное меню
 nav:
