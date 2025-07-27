@@ -8,7 +8,7 @@ docs_dir: docs
 
 # Явное, лаконичное меню
 nav:
-  - В начало: pages/docs/README.md
+  - В начало: page/docs/README.md
 
 theme:
   name: material
