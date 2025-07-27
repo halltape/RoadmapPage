@@ -1,6 +1,6 @@
 /* Основной фон и цвет текста для всего сайта */
 body {
-  background: #1a1a1f;
+  background: #1f2121;
   color: #eaeaea;
 }
 
@@ -12,7 +12,6 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Тень */
   transition: background 0.3s, box-shadow 0.3s, min-height 0.3s, padding 0.3s; /* Плавные переходы */
   backdrop-filter: saturate(80%) blur(2px); /* Эффект стекла */
-  position: static !important;
 }
 
 /* Внутренний контейнер шапки: выравнивание и отступы */
@@ -72,20 +71,41 @@ body {
   color: #ffffff !important;
 }
 
-/* Кастомная кнопка (например, для Telegram) */
-.tg-btn {
-  display: inline-block;
-  padding: 0.4em 1.2em;
-  margin: 0.1em 0.2em;
-  background: #00cfff;
-  color: #000000 !important;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.2s;
+/* Кастомная кнопка (АВТОРЫ ROADMAP) */
+.tg-pairs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 600px;
+  margin: 0 auto;
 }
-.tg-btn:hover {
-  background: #32da58;
+
+.tg-pair {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tg-pair a {
+  flex: 1 1 45%;
+  padding: 6px 10px;
+  background-color: #2a2d34;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 6px;
+  text-align: center;
+  transition: background 0.2s ease;
+}
+
+.tg-pair a:hover {
+  background-color: #444857;
+}
+
+/* Убрать меню слева */
+.md-sidebar--primary {
+  display: none !important;
 }
 
 /* Карточки зарплат: контейнер и отдельные карточки */
@@ -122,32 +142,6 @@ body {
   font-size: 1.2em;
   font-weight: 500;
   color: #7ed957;
-}
-
-/* Кнопка "назад" (например, на главную) */
-#toc-home-btn {
-  display: block;
-  width: 100%;
-  margin-bottom: 1em;
-  padding: 0.7em 0;
-  background: linear-gradient(90deg, #229ed9 0%, #176b99 100%);
-  color: #fff !important;
-  font-weight: 700;
-  font-size: 1.1em;
-  border: none;
-  border-radius: 8px;
-  text-align: center;
-  text-decoration: none;
-  box-shadow: 0 2px 8px rgba(34,158,217,0.10);
-  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
-  letter-spacing: 0.01em;
-  cursor: pointer;
-}
-#toc-home-btn:hover {
-  background: linear-gradient(90deg, #5a9917 0%, #50d922 100%);
-  color: #fff !important;
-  box-shadow: 0 4px 16px rgba(34,158,217,0.18);
-  transform: translateY(-1px) scale(1);
 }
 
 /* Размер шрифта в таблицах */
@@ -227,12 +221,12 @@ body {
   transform: translate(-50%, -50%); /* Центрирует по горизонтали и вертикали */
   padding: 1px 10px;
   border-radius: 10px;
-  background: rgb(26, 26, 31);
+  background: rgb(31, 33, 33);
   backdrop-filter: blur(8px) saturate(180%);
   -webkit-backdrop-filter: blur(8px) saturate(180%);
   font-weight: 900;
   z-index: 1;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px rgb(31, 33, 33);
   font-size: 1em; /* Можно подогнать размер */
   line-height: 1.2;
 }
@@ -244,7 +238,7 @@ body {
   right: 32px;
   bottom: 32px;
   z-index: 1000;
-  background: rgba(30,34,40,0.7);
+  background: rgb(31, 33, 33);
   color: #fff;
   padding: 12px 18px;
   border-radius: 50px;
@@ -255,4 +249,9 @@ body {
 }
 #scrollToTopBtn:hover {
   background: rgba(0, 209, 255, 0.9);
+}
+
+.md-header__title {
+  cursor: pointer;
+  text-decoration: underline dotted;
 }

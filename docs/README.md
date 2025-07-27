@@ -4,23 +4,32 @@
 ***
 ## Каналы авторов Roadmap | Подпишись!
 
-<a class="tg-btn" href="https://t.me/halltape_data" target="_blank">Канал Я – Дата Инженер</a>
-<a class="tg-btn" href="https://t.me/halltape" target="_blank">@halltape</a>
-
-<a class="tg-btn" href="https://t.me/Shust_DE" target="_blank">Инженерообязанный Из военки в IT</a>
-<a class="tg-btn" href="https://t.me/ShustDE" target="_blank">@ShustDE</a>
-
-<a class="tg-btn" href="https://t.me/rzv_de" target="_blank">rzv Data Engineering</a>
-<a class="tg-btn" href="https://t.me/razvodov_de_mentor" target="_blank">@razvodov_de_mentor</a>
-
-<a class="tg-btn" href="https://t.me/dataengineerlab" target="_blank">Data Engineer Lab</a>
-<a class="tg-btn" href="https://t.me/ampodvalniy" target="_blank">@ampodvalniy</a>
-
-<a class="tg-btn" href="https://t.me/chtotonainzhenernom" target="_blank">что-то на инженерном</a>
-<a class="tg-btn" href="https://t.me/iamannabo" target="_blank">@iamannabo</a>
-
-<a class="tg-btn" href="https://t.me/data_penguin" target="_blank">it пингвин - data engineer</a>
-<a class="tg-btn" href="https://t.me/it_pengwin" target="_blank">@it_pengwin</a>
+<div class="tg-pairs">
+  <div class="tg-pair">
+    <a href="https://t.me/halltape_data" target="_blank">Канал Я – Дата Инженер</a>
+    <a href="https://t.me/halltape" target="_blank">@halltape</a>
+  </div>
+  <div class="tg-pair">
+    <a href="https://t.me/Shust_DE" target="_blank">Инженерообязанный Из военки в IT</a>
+    <a href="https://t.me/ShustDE" target="_blank">@ShustDE</a>
+  </div>
+  <div class="tg-pair">
+    <a href="https://t.me/rzv_de" target="_blank">rzv Data Engineering</a>
+    <a href="https://t.me/razvodov_de_mentor" target="_blank">@razvodov_de_mentor</a>
+  </div>
+  <div class="tg-pair">
+    <a href="https://t.me/dataengineerlab" target="_blank">Data Engineer Lab</a>
+    <a href="https://t.me/ampodvalniy" target="_blank">@ampodvalniy</a>
+  </div>
+  <div class="tg-pair">
+    <a href="https://t.me/chtotonainzhenernom" target="_blank">что-то на инженерном</a>
+    <a href="https://t.me/iamannabo" target="_blank">@iamannabo</a>
+  </div>
+  <div class="tg-pair">
+    <a href="https://t.me/data_penguin" target="_blank">it пингвин - data engineer</a>
+    <a href="https://t.me/it_pengwin" target="_blank">@it_pengwin</a>
+  </div>
+</div>
 
 **Хочешь стать автором?** [Кликай сюда!](CONTRIBUTING.md)
 
