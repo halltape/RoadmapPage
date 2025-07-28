@@ -17,3 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+document.querySelector('.md-header__title').addEventListener('click', function() {
+  // Здесь укажите действие, которое должно выполняться при клике.
+  // Например, переход на главную страницу:
+  window.location.href = '/'; // Замените '/' на нужный URL
+});
